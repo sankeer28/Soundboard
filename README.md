@@ -1,13 +1,20 @@
 # Soundboard
-Soundboard made using electron
+Soundboard made in HTML, CSS, Javascript and built with Electron
+App is already built and available in [releases](https://github.com/sankeer28/Soundboard/releases/tag/Soundboard)
 
+## Features:
+- Standalone app
+- Sound meter with db
+- Individual volume control for each audio clip
+- Application remembers the volume for each clip even after closing
+  
 ## Prerequisites to build
 
 Ensure you have met the following requirements:
 
 * You have installed Node.js, Electron, and npm
 
-## Installing Soundboard
+## Building the Soundboard Executable
 
 To install <Your-Project-Name>, follow these steps:
 
@@ -23,21 +30,9 @@ To install <Your-Project-Name>, follow these steps:
     ```bash
     npm install
     ```
-
-## Using <Your-Project-Name>
-
-To use <Your-Project-Name>, follow these steps:
-
-1. Run the application:
-    ```bash
-    npm start
-    ```
-
-## Packaging <Your-Project-Name>
-
-To package <Your-Project-Name> into an executable file, follow these steps:
-
-1. Package the application:
+4. Package the application:
     ```bash
     npm run dist
     ```
+## Next Steps
+- Keep the locations of the audio files in memory ( need to re-add all audio files each time application opens)
