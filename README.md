@@ -1,6 +1,6 @@
 # Soundboard
 #### Soundboard made in HTML, CSS, Javascript and built with Electron.
-App is already built and available in [releases](https://github.com/sankeer28/Soundboard/releases/tag/Soundboard)
+App is already built and available in [releases](https://github.com/sankeer28/Soundboard/releases/tag/Soundboard). 
 Web app is also available on [Github pages](https://sankeer28.github.io/Soundboard/)
 ## Features:
 - Standalone app
