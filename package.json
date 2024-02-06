@@ -1,0 +1,30 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Soundboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.2.1",
+    "electron-builder": "^22.14.5",
+    "electron-packager": "^15.4.0"
+  },
+  "build": {
+    "appId": "com.github.sankeer28.Soundboard",
+    "productName": "Soundboard 🔊",
+    "win": {
+      "target": "nsis",
+      "icon": "src/sound.ico"
+    }
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  }
+}
