@@ -1,12 +1,13 @@
 # Soundboard
 Soundboard made in HTML, CSS, Javascript and built with Electron
 App is already built and available in [releases](https://github.com/sankeer28/Soundboard/releases/tag/Soundboard)
-
+Test
 ## Features:
 - Standalone app
 - Sound meter with db
 - Individual volume control for each audio clip
 - Application remembers the volume for each clip even after closing
+- Supports .ogg and mp3 files
   
 ## Prerequisites to build
 
