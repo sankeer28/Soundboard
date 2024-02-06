@@ -36,3 +36,4 @@ To install <Your-Project-Name>, follow these steps:
     ```
 ## Next Steps
 - Keep the locations of the audio files in memory ( need to re-add all audio files each time application opens)
+- Screen resizing issues need to be fixed
